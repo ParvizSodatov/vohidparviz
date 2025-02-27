@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -31,7 +32,7 @@
         </ul>
     </header>
     <main>
-        <section class="md:flex justify-center mt-[2%] px-5">
+        <section class="md:flex justify-center mt-[2%] px-5" data-aos="zoom-in-down">
             <aside class="md:w-[35%] bg-[#2A254B] text-white p-[3%] text-center md:text-start">
                 <h1 class="text-[30px]">The furniture brand for the future, with timeless designs</h1>
                 <button class="mt-[15%] bg-[#F9F9F926] px-5 py-1">View collection</button>
@@ -41,7 +42,7 @@
             </aside>
             <img src="./Right Image.png" alt="" class="mt-[3%] md:mt-0">
         </section>
-        <section class="md:flex justify-between mt-[2%]">
+        <section class="md:flex justify-between mt-[2%]" data-aos="zoom-in-down">
    <article class="md:w-[20%] m-auto w-[90%] text-center md:text-start">
     <i class="fa-solid fa-truck-fast"></i>
     <p>Next day as standard</p>
@@ -70,28 +71,28 @@
         </section>
 <section class="md:flex justify-around mt-[3%] hidden md:block">
   <article class="">
-    <img src="./Parent.png" alt="" class="m-auto">
+    <img src="./Parent.png" alt="" class="m-auto" data-aos="zoom-in-down">
     <div class="hidden md:block" >
     <p>The Dandy chair</p>
     <p>£250</p>
 </div>
   </article>
   <article class="">
-    <img src="./Parent (1).png" alt="">
+    <img src="./Parent (1).png" alt="" data-aos="zoom-in-down">
     <div class="hidden md:block">
     <p>The Dandy chair</p>
     <p>£250</p>
 </div>
   </article>
   <article>
-    <img src="./Parent 2.png" alt="">
+    <img src="./Parent 2.png" alt="" data-aos="zoom-in-down">
     <div class="hidden md:block">
     <p>The Dandy chair</p>
     <p>£250</p>
 </div>
   </article>
   <article>
-    <img src="./Photo.png" alt="">
+    <img src="./Photo.png" alt="" data-aos="zoom-in-down">
     <div class="hidden md:block">
     <p>The Dandy chair</p>
     <p>£250</p>
@@ -99,11 +100,11 @@
   </article>
 </section>
  <section class="md:flex justify-around mt-[3%] px-5">
-    <img src="./Product Card.png" alt="" class="m-auto">
-    <img src="Product Card (1).png" alt="" class="m-auto">
-    <img src="./Product Card (2).png" alt="" class="m-auto">
+    <img src="./Product Card.png" alt="" class="m-auto" data-aos="zoom-in-down">
+    <img src="Product Card (1).png" alt="" class="m-auto" data-aos="zoom-in-down">
+    <img src="./Product Card (2).png" alt="" class="m-auto" data-aos="zoom-in-down">
  </section>
- <section class="flex flex-col items-center justify-center px-4 py-16 bg-gray-100">
+ <section class="flex flex-col items-center justify-center px-4 py-16 bg-gray-100" data-aos="zoom-in-down">
     <h2 class="text-2xl sm:text-3xl font-semibold text-center text-gray-800">
       Join the club and <span class="text-gray-600">get the benefits</span>
     </h2>
@@ -121,7 +122,7 @@
       </button>
     </div>
   </section>
-  <section class="md:flex justify-center mt-[2%] px-5">
+  <section class="md:flex justify-center mt-[2%] px-5" data-aos="zoom-in-down">
     <aside class="md:w-[35%] bg-[#2A254B] text-white p-[3%] text-center md:text-start">
         <h1 class="text-[30px]">The furniture brand for the future, with timeless designs</h1>
         <button class="mt-[15%] bg-[#F9F9F926] px-5 py-1">View collection</button>
@@ -129,10 +130,10 @@
             with nice fonts, tasteful colors and a beautiful way to display things digitally
             using modern web technologies.</p>
     </aside>
-    <img src="./Image.png" alt="" class="mt-[3%] md:mt-0">
+    <img src="./Image.png" alt="" class="mt-[3%] md:mt-0" data-aos="zoom-in-down">
 </section>
     </main>
-    <footer class="bg-[#2A254B] text-gray-300 py-10 px-4 mt-[30px]">
+    <footer class="bg-[#2A254B] text-gray-300 py-10 px-4 mt-[30px]" data-aos="zoom-in-down">
         <div class="container mx-auto flex flex-col md:flex-row justify-between gap-8">
          
           <div>
@@ -177,7 +178,7 @@
               <input type="email" placeholder="your@email.com"
                 class="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 text-white outline-none focus:ring-2 focus:ring-gray-600">
               <button class="bg-gray-700 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition">
-                Sign up
+                Sign
               </button>
             </div>
           </div>
@@ -195,6 +196,10 @@
           </div>
         </div>
       </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
